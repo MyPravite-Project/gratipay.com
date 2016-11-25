@@ -7,4 +7,8 @@
     p.package-description-redundant {
         display: none;
     }
+
+    .deep-link-icon {
+        display: none; // hrefs are to #blah, but id="user-content-blah" (?!)
+    }
 }
