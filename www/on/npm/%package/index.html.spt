@@ -29,8 +29,3 @@ suppress_sidebar = True
 <p><i>{{ package.description }}</i></p>
 {{ package.readme | safe }}
 {% endblock %}
-
-{% block scripts %}
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
-{% endblock %}
