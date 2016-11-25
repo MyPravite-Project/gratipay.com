@@ -1,6 +1,7 @@
 [---]
 title = "Search npm"
 suppress_sidebar = True
+website.redirect('/')  # nothing here yet
 [---]
 {% extends "templates/base.html" %}
 {% block content %}
